@@ -36,3 +36,7 @@ end
 
 -- Map to Space + z in normal mode
 vim.keymap.set('n', '<Space>z', toggle_zoom, { noremap = true, silent = true, desc = "Toggle maximize window" })
+
+map("n", "<leader>c", "<cmd>bd<CR>", { desc = "Close buffer" })
+map("n", "<C-p>", "<cmd>GFiles<CR>", { desc = "Git files" })
+map("n", "<leader>pf", "<cmd>GFiles<CR>", { desc = "Git files" })

@@ -5,8 +5,9 @@ return {
     lazy = false, -- Load immediately at startup
     priority = 100, -- Load earlier
     init = function()
-      vim.g.VM_maps = { 
-        ["Find Under"] = "<C-d>"
+      vim.g.VM_maps = {
+        ["Find Under"] = "<A-d>",
+        ["Find Subword Under"] = "<A-d>",
       }
     end,
   },

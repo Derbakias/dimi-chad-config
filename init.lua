@@ -35,13 +35,3 @@ require "autocmds"
 vim.schedule(function()
   require "mappings"
 end)
-
-vim.cmd([[
-set scrolloff=8
-set relativenumber
-set mouse+=a
-nnoremap <leader>c :bd<CR>
-noremap <C-p> :GFiles<CR>
-noremap <leader>pf :GFiles<CR>
-]])
-
