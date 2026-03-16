@@ -1,0 +1,32 @@
+return {
+  {
+  	"nvim-treesitter/nvim-treesitter",
+  	opts = {
+  		ensure_installed = {
+        "bash",
+        "c",
+        "css",
+        "go",
+        "html",
+        "http",
+        "javascript",
+        "json",
+        "lua",
+        "luadoc",
+        "markdown",
+        "markdown_inline",
+        "rust",
+        "scheme",
+        "scss",
+        "toml",
+        "tsx",
+        "typescript",
+        "vim",
+        "vimdoc",
+        "yaml",
+  		},
+      indent = { enable = true },
+      highlight = { enable = true },
+  	},
+  },
+}

@@ -1,4 +1,9 @@
 return {
+  { import = "plugins.local.typr" },
+  { import = "plugins.local.vim-visual-multi" },
+  { import = "plugins.override.nvim-treesitter" },
+  { import = "plugins.spec.autopairs" },
+  
   {
     "stevearc/conform.nvim",
     -- event = 'BufWritePre', -- uncomment for format on save
@@ -15,14 +20,4 @@ return {
 
   -- test new blink
   -- { import = "nvchad.blink.lazyspec" },
-
-  -- {
-  -- 	"nvim-treesitter/nvim-treesitter",
-  -- 	opts = {
-  -- 		ensure_installed = {
-  -- 			"vim", "lua", "vimdoc",
-  --      "html", "css"
-  -- 		},
-  -- 	},
-  -- },
 }
