@@ -6,6 +6,7 @@ return {
   { import = "plugins.local.mason-tools" },
   { import = "plugins.local.neoscroll" },
   { import = "plugins.local.hardtime" },
+  { import = "plugins.local.vim-be-good" },
   { import = "plugins.local.codediff" },
   { import = "plugins.local.markview" },
   { import = "plugins.override.nvim-treesitter" },
